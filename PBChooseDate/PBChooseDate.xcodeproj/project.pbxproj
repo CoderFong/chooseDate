@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68CA77A0200308A6009EFE92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CA779F200308A6009EFE92 /* AppDelegate.m */; };
+		68CA77A3200308A6009EFE92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CA77A2200308A6009EFE92 /* ViewController.m */; };
+		68CA77A6200308A6009EFE92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CA77A4200308A6009EFE92 /* Main.storyboard */; };
+		68CA77A8200308A6009EFE92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CA77A7200308A6009EFE92 /* Assets.xcassets */; };
+		68CA77AB200308A6009EFE92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CA77A9200308A6009EFE92 /* LaunchScreen.storyboard */; };
+		68CA77AE200308A6009EFE92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CA77AD200308A6009EFE92 /* main.m */; };
+		68CA77B720030B57009EFE92 /* PBChooseDateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CA77B520030B57009EFE92 /* PBChooseDateController.m */; };
+		68CA77B820030B57009EFE92 /* PBChooseDateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68CA77B620030B57009EFE92 /* PBChooseDateController.xib */; };
+		68CA77C72003143B009EFE92 /* ZYWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CA77BC2003143A009EFE92 /* ZYWeekView.m */; };
+		68CA77C82003143B009EFE92 /* ZYCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CA77BD2003143B009EFE92 /* ZYCalendarManager.m */; };
+		68CA77C92003143B009EFE92 /* ZYCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CA77C02003143B009EFE92 /* ZYCalendarView.m */; };
+		68CA77CA2003143B009EFE92 /* ZYDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CA77C12003143B009EFE92 /* ZYDayView.m */; };
+		68CA77CB2003143B009EFE92 /* JTDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CA77C22003143B009EFE92 /* JTDateHelper.m */; };
+		68CA77CC2003143B009EFE92 /* ZYMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CA77C52003143B009EFE92 /* ZYMonthView.m */; };
+		68CA77D220031441009EFE92 /* backImg_end.png in Resources */ = {isa = PBXBuildFile; fileRef = 68CA77CE20031441009EFE92 /* backImg_end.png */; };
+		68CA77D320031441009EFE92 /* backImg_start.png in Resources */ = {isa = PBXBuildFile; fileRef = 68CA77CF20031441009EFE92 /* backImg_start.png */; };
+		68CA77D420031441009EFE92 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 68CA77D020031441009EFE92 /* circle.png */; };
+		68CA77D520031441009EFE92 /* circle_cir.png in Resources */ = {isa = PBXBuildFile; fileRef = 68CA77D120031441009EFE92 /* circle_cir.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68CA779B200308A5009EFE92 /* PBChooseDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBChooseDate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CA779E200308A6009EFE92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68CA779F200308A6009EFE92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68CA77A1200308A6009EFE92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68CA77A2200308A6009EFE92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68CA77A5200308A6009EFE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68CA77A7200308A6009EFE92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68CA77AA200308A6009EFE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68CA77AC200308A6009EFE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68CA77AD200308A6009EFE92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68CA77B420030B57009EFE92 /* PBChooseDateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBChooseDateController.h; sourceTree = "<group>"; };
+		68CA77B520030B57009EFE92 /* PBChooseDateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBChooseDateController.m; sourceTree = "<group>"; };
+		68CA77B620030B57009EFE92 /* PBChooseDateController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PBChooseDateController.xib; sourceTree = "<group>"; };
+		68CA77BB20031439009EFE92 /* JTDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDateHelper.h; sourceTree = "<group>"; };
+		68CA77BC2003143A009EFE92 /* ZYWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYWeekView.m; sourceTree = "<group>"; };
+		68CA77BD2003143B009EFE92 /* ZYCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCalendarManager.m; sourceTree = "<group>"; };
+		68CA77BE2003143B009EFE92 /* ZYCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCalendarView.h; sourceTree = "<group>"; };
+		68CA77BF2003143B009EFE92 /* ZYCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCalendarManager.h; sourceTree = "<group>"; };
+		68CA77C02003143B009EFE92 /* ZYCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCalendarView.m; sourceTree = "<group>"; };
+		68CA77C12003143B009EFE92 /* ZYDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDayView.m; sourceTree = "<group>"; };
+		68CA77C22003143B009EFE92 /* JTDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDateHelper.m; sourceTree = "<group>"; };
+		68CA77C32003143B009EFE92 /* ZYDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDayView.h; sourceTree = "<group>"; };
+		68CA77C42003143B009EFE92 /* ZYWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYWeekView.h; sourceTree = "<group>"; };
+		68CA77C52003143B009EFE92 /* ZYMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMonthView.m; sourceTree = "<group>"; };
+		68CA77C62003143B009EFE92 /* ZYMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMonthView.h; sourceTree = "<group>"; };
+		68CA77CE20031441009EFE92 /* backImg_end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backImg_end.png; sourceTree = "<group>"; };
+		68CA77CF20031441009EFE92 /* backImg_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backImg_start.png; sourceTree = "<group>"; };
+		68CA77D020031441009EFE92 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		68CA77D120031441009EFE92 /* circle_cir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_cir.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68CA7798200308A5009EFE92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68CA7792200308A5009EFE92 = {
+			isa = PBXGroup;
+			children = (
+				68CA779D200308A5009EFE92 /* PBChooseDate */,
+				68CA779C200308A5009EFE92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68CA779C200308A5009EFE92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68CA779B200308A5009EFE92 /* PBChooseDate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68CA779D200308A5009EFE92 /* PBChooseDate */ = {
+			isa = PBXGroup;
+			children = (
+				68CA77BA2003142C009EFE92 /* ZYCalendarView */,
+				68CA779E200308A6009EFE92 /* AppDelegate.h */,
+				68CA779F200308A6009EFE92 /* AppDelegate.m */,
+				68CA77A1200308A6009EFE92 /* ViewController.h */,
+				68CA77A2200308A6009EFE92 /* ViewController.m */,
+				68CA77B420030B57009EFE92 /* PBChooseDateController.h */,
+				68CA77B520030B57009EFE92 /* PBChooseDateController.m */,
+				68CA77B620030B57009EFE92 /* PBChooseDateController.xib */,
+				68CA77A4200308A6009EFE92 /* Main.storyboard */,
+				68CA77A7200308A6009EFE92 /* Assets.xcassets */,
+				68CA77A9200308A6009EFE92 /* LaunchScreen.storyboard */,
+				68CA77AC200308A6009EFE92 /* Info.plist */,
+				68CA77AD200308A6009EFE92 /* main.m */,
+			);
+			path = PBChooseDate;
+			sourceTree = "<group>";
+		};
+		68CA77BA2003142C009EFE92 /* ZYCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				68CA77CD20031441009EFE92 /* Images */,
+				68CA77BE2003143B009EFE92 /* ZYCalendarView.h */,
+				68CA77C02003143B009EFE92 /* ZYCalendarView.m */,
+				68CA77BF2003143B009EFE92 /* ZYCalendarManager.h */,
+				68CA77BD2003143B009EFE92 /* ZYCalendarManager.m */,
+				68CA77C32003143B009EFE92 /* ZYDayView.h */,
+				68CA77C12003143B009EFE92 /* ZYDayView.m */,
+				68CA77C62003143B009EFE92 /* ZYMonthView.h */,
+				68CA77C52003143B009EFE92 /* ZYMonthView.m */,
+				68CA77C42003143B009EFE92 /* ZYWeekView.h */,
+				68CA77BC2003143A009EFE92 /* ZYWeekView.m */,
+				68CA77BB20031439009EFE92 /* JTDateHelper.h */,
+				68CA77C22003143B009EFE92 /* JTDateHelper.m */,
+			);
+			path = ZYCalendarView;
+			sourceTree = "<group>";
+		};
+		68CA77CD20031441009EFE92 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				68CA77CE20031441009EFE92 /* backImg_end.png */,
+				68CA77CF20031441009EFE92 /* backImg_start.png */,
+				68CA77D020031441009EFE92 /* circle.png */,
+				68CA77D120031441009EFE92 /* circle_cir.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68CA779A200308A5009EFE92 /* PBChooseDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CA77B1200308A6009EFE92 /* Build configuration list for PBXNativeTarget "PBChooseDate" */;
+			buildPhases = (
+				68CA7797200308A5009EFE92 /* Sources */,
+				68CA7798200308A5009EFE92 /* Frameworks */,
+				68CA7799200308A5009EFE92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PBChooseDate;
+			productName = PBChooseDate;
+			productReference = 68CA779B200308A5009EFE92 /* PBChooseDate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68CA7793200308A5009EFE92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = tmkj;
+				TargetAttributes = {
+					68CA779A200308A5009EFE92 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 68CA7796200308A5009EFE92 /* Build configuration list for PBXProject "PBChooseDate" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68CA7792200308A5009EFE92;
+			productRefGroup = 68CA779C200308A5009EFE92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68CA779A200308A5009EFE92 /* PBChooseDate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68CA7799200308A5009EFE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CA77D520031441009EFE92 /* circle_cir.png in Resources */,
+				68CA77D220031441009EFE92 /* backImg_end.png in Resources */,
+				68CA77B820030B57009EFE92 /* PBChooseDateController.xib in Resources */,
+				68CA77AB200308A6009EFE92 /* LaunchScreen.storyboard in Resources */,
+				68CA77A8200308A6009EFE92 /* Assets.xcassets in Resources */,
+				68CA77D420031441009EFE92 /* circle.png in Resources */,
+				68CA77A6200308A6009EFE92 /* Main.storyboard in Resources */,
+				68CA77D320031441009EFE92 /* backImg_start.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68CA7797200308A5009EFE92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CA77CB2003143B009EFE92 /* JTDateHelper.m in Sources */,
+				68CA77C72003143B009EFE92 /* ZYWeekView.m in Sources */,
+				68CA77B720030B57009EFE92 /* PBChooseDateController.m in Sources */,
+				68CA77CA2003143B009EFE92 /* ZYDayView.m in Sources */,
+				68CA77A3200308A6009EFE92 /* ViewController.m in Sources */,
+				68CA77AE200308A6009EFE92 /* main.m in Sources */,
+				68CA77CC2003143B009EFE92 /* ZYMonthView.m in Sources */,
+				68CA77C92003143B009EFE92 /* ZYCalendarView.m in Sources */,
+				68CA77C82003143B009EFE92 /* ZYCalendarManager.m in Sources */,
+				68CA77A0200308A6009EFE92 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68CA77A4200308A6009EFE92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68CA77A5200308A6009EFE92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68CA77A9200308A6009EFE92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68CA77AA200308A6009EFE92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68CA77AF200308A6009EFE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68CA77B0200308A6009EFE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68CA77B2200308A6009EFE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HS8G68RZG;
+				INFOPLIST_FILE = PBChooseDate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmkj.PBChooseDate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68CA77B3200308A6009EFE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HS8G68RZG;
+				INFOPLIST_FILE = PBChooseDate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmkj.PBChooseDate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68CA7796200308A5009EFE92 /* Build configuration list for PBXProject "PBChooseDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CA77AF200308A6009EFE92 /* Debug */,
+				68CA77B0200308A6009EFE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68CA77B1200308A6009EFE92 /* Build configuration list for PBXNativeTarget "PBChooseDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CA77B2200308A6009EFE92 /* Debug */,
+				68CA77B3200308A6009EFE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68CA7793200308A5009EFE92 /* Project object */;
+}
